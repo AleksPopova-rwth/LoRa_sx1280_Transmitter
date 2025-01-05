@@ -9,7 +9,8 @@ The `LoRa_sx1280_Transmitter` project demonstrates the use of the SX1280 transce
 - LoRa data transmission using the SX1280 module
 - Simple C implementation
 - Can be expanded for various IoT applications
-
+- The whole library is written myself on the base of Semtech sx1280 Datasheet, despite of sx1280.cpp and sx1280.h are included in the project. I do not use them.
+- 
 ## Setup
 
 1. Clone the repository:
