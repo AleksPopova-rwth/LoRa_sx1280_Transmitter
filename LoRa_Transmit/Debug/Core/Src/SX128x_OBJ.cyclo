@@ -1,0 +1,18 @@
+/opt/st/stm32cubeide_1.17.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.1.0.202410170702/tools/arm-none-eabi/include/c++/12.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+../Core/Src/SX128x_OBJ.cpp:8:6:void SX128x_OBJ::CommonTransceiverSetting()	1
+../Core/Src/SX128x_OBJ.cpp:18:6:void SX128x_OBJ::TxSetting()	1
+../Core/Src/SX128x_OBJ.cpp:25:9:uint8_t SX128x_OBJ::TxBlocking(uint8_t*, uint8_t)	4
+../Core/Src/SX128x_OBJ.cpp:55:13:void SX128x_OBJ::InterruptSetting()	1
+../Core/Src/SX128x_OBJ.cpp:65:9:uint8_t SX128x_OBJ::Init()	3
+../Core/Inc/SX128x.hpp:1056:9:SX128x::<unnamed struct>::<constructor>()	1
+../Core/Inc/SX128x.hpp:1069:2:SX128x::SX128x()	1
+../Core/Src/SX128x_OBJ.cpp:85:1:SX128x_OBJ::SX128x_OBJ()	1
+../Core/Src/SX128x_OBJ.cpp:103:9:uint8_t SX128x_OBJ::PutPacket(uint8_t*)	5
+../Core/Src/SX128x_OBJ.cpp:141:6:void SX128x_OBJ::tx_recursion()	3
+../Core/Src/SX128x_OBJ.cpp:169:6:void SX128x_OBJ::RxSetting()	1
+../Core/Src/SX128x_OBJ.cpp:177:9:uint8_t SX128x_OBJ::RxBlocking(uint8_t*, uint8_t)	3
+/opt/st/stm32cubeide_1.17.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.1.0.202410170702/tools/arm-none-eabi/include/c++/12.3.1/bits/std_function.h:239:5:constexpr std::_Function_base::_Function_base()	1
+/opt/st/stm32cubeide_1.17.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.1.0.202410170702/tools/arm-none-eabi/include/c++/12.3.1/bits/std_function.h:368:7:)>::function() [with _Res = void; _ArgTypes = {}]	1
+/opt/st/stm32cubeide_1.17.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.1.0.202410170702/tools/arm-none-eabi/include/c++/12.3.1/bits/std_function.h:368:7:)>::function() [with _Res = void; _ArgTypes = {SX128x::IrqErrorCode_t}]	1
+/opt/st/stm32cubeide_1.17.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.1.0.202410170702/tools/arm-none-eabi/include/c++/12.3.1/bits/std_function.h:368:7:)>::function() [with _Res = void; _ArgTypes = {SX128x::IrqRangingCode_t}]	1
+/opt/st/stm32cubeide_1.17.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.1.0.202410170702/tools/arm-none-eabi/include/c++/12.3.1/bits/std_function.h:368:7:)>::function() [with _Res = void; _ArgTypes = {bool}]	1
