@@ -13,20 +13,23 @@
 ../Core/Src/main.c:320:6:void getPacketType(SPI_HandleTypeDef*)	6
 ../Core/Src/main.c:366:6:void setFrequency()	1
 ../Core/Src/main.c:375:6:void setBufferBaseAddress()	1
-../Core/Src/main.c:384:6:void setModulationParams()	1
-../Core/Src/main.c:392:6:void setPacketParams()	1
-../Core/Src/main.c:408:6:void setTxParams()	1
-../Core/Src/main.c:414:6:void setTx()	1
-../Core/Src/main.c:420:6:void InterruptSetting()	1
-../Core/Src/main.c:434:6:void setDioIrqParams(uint16_t, uint16_t, uint16_t, uint16_t)	1
-../Core/Src/main.c:454:6:void DerTakt()	1
-../Core/Src/main.c:501:6:void WriteBuffer(uint8_t, uint8_t*, uint8_t)	3
-../Core/Src/main.c:526:6:void SendPayload(uint8_t, uint8_t*, uint8_t)	1
-../Core/Src/main.c:534:9:uint8_t PutPacket(uint8_t*)	6
-../Core/Src/main.c:583:5:int main()	2
-../Core/Src/main.c:735:6:void SystemClock_Config()	3
-../Core/Src/main.c:783:13:void MX_SPI1_Init()	2
-../Core/Src/main.c:821:13:void MX_TIM1_Init()	5
-../Core/Src/main.c:886:13:void MX_USART2_UART_Init()	2
-../Core/Src/main.c:919:13:void MX_GPIO_Init()	1
-../Core/Src/main.c:991:6:void Error_Handler()	1
+../Core/Src/main.c:383:6:void setModulationParams()	1
+../Core/Src/main.c:391:6:void setPacketParams()	1
+../Core/Src/main.c:407:6:void setTxParams()	1
+../Core/Src/main.c:413:6:void setTx()	1
+../Core/Src/main.c:419:6:void ClrIrqStatus()	1
+../Core/Src/main.c:429:6:void setDioIrqParams(uint16_t, uint16_t, uint16_t, uint16_t)	1
+../Core/Src/main.c:449:6:bool checkIrqStatus(uint16_t)	1
+../Core/Src/main.c:468:6:void DerTakt()	1
+../Core/Src/main.c:515:6:void WriteBuffer(uint8_t, uint8_t*, uint8_t)	2
+../Core/Src/main.c:536:6:void ReadBuffer(SPI_HandleTypeDef*, UART_HandleTypeDef*, uint8_t)	1
+../Core/Src/main.c:548:6:void SendPayload(uint8_t, uint8_t*, uint8_t)	1
+../Core/Src/main.c:556:6:void setDioIrqParamsForTxDone()	1
+../Core/Src/main.c:570:9:uint8_t PutPacket(uint8_t*)	5
+../Core/Src/main.c:617:5:int main()	2
+../Core/Src/main.c:754:6:void SystemClock_Config()	3
+../Core/Src/main.c:802:13:void MX_SPI1_Init()	2
+../Core/Src/main.c:840:13:void MX_TIM1_Init()	5
+../Core/Src/main.c:905:13:void MX_USART2_UART_Init()	2
+../Core/Src/main.c:938:13:void MX_GPIO_Init()	1
+../Core/Src/main.c:1010:6:void Error_Handler()	1

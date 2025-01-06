@@ -84,8 +84,8 @@ all: main-build
 main-build: LoRa_Transmit.elf secondary-outputs
 
 # Tool invocations
-LoRa_Transmit.elf LoRa_Transmit.map: $(OBJS) $(USER_OBJS) /home/sasha/STM_Projects/SpaceTeam/LoRa/LoRa_446RE/STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "LoRa_Transmit.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/sasha/STM_Projects/SpaceTeam/LoRa/LoRa_446RE/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LoRa_Transmit.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+LoRa_Transmit.elf LoRa_Transmit.map: $(OBJS) $(USER_OBJS) /home/sasha/STM_Projects/SpaceTeam/LoRa/LoRa_Transmit/STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "LoRa_Transmit.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/sasha/STM_Projects/SpaceTeam/LoRa/LoRa_Transmit/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LoRa_Transmit.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
